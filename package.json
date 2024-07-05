@@ -1,0 +1,16 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "deploy:polygonTestnet": "npx hardhat run scripts/deploy.ts --network polygonTestnet",
+    "deploy:localhost": "npx hardhat run scripts/deploy.ts --network localhost",
+    "node": "npx hardhat node"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^4.9.6",
+    "@openzeppelin/contracts-upgradeable": "^5.0.2",
+    "@openzeppelin/hardhat-upgrades": "^3.2.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.6"
+  }
+}
